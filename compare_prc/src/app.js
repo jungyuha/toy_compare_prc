@@ -3,9 +3,6 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
-var unitTestRouter = require('./routes/unitTest');
-
 var app = express();
 
 // view engine setup
@@ -18,10 +15,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/statics/css',express.static(path.join(__dirname, 'public/javascripts')));
-app.use('/statics/images',express.static(path.join(__dirname, 'public/images')));
-
+var unitTestRouter = require('./routes/unitTest');
 app.use('/unitTest', unitTestRouter);
+
+app.use('/statics/css',express.static(path.join(__dirname, './public/stylesheets')));
+app.use('/statics/images',express.static(path.join(__dirname, './public/images')));
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
