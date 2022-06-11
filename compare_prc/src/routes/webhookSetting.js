@@ -6,5 +6,10 @@ router.get('/', function(req, res, next) {
     console.log("hi");
   res.render('unitTestMain', { title: 'unit test page' });
 });
+
+/* GET sample listing. */
+router.get('/list', function(req, res, next) {
+  res.send('respond with a resource');
+});
  
 module.exports = router; 

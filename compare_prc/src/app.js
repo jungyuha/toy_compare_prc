@@ -15,8 +15,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-var unitTestRouter = require('./routes/unitTest');
-app.use('/unitTest', unitTestRouter);
+var webhookSettingRouter = require('./routes/webhookSetting');
+app.use('/webhookSetting', webhookSettingRouter);
 
 app.use('/statics/css',express.static(path.join(__dirname, './public/stylesheets')));
 app.use('/statics/images',express.static(path.join(__dirname, './public/images')));
