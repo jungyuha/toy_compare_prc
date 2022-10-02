@@ -14,6 +14,8 @@
     "discord-webhook-node": "^1.1.8",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
+    "express-generator": "^4.16.1",
+    "express-promise-router": "^4.1.1",
     "got": "^11.8.2",
     "gulp": "^4.0.2",
     "gulp-load-plugins": "^2.0.7",
@@ -21,7 +23,12 @@
     "http-errors": "~1.6.3",
     "jest": "^28.1.1",
     "morgan": "~1.9.1",
-    "stockx-api": "^1.1.0"
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "stockx-api": "^1.1.0",
+    "toad-scheduler": "^1.6.1",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
   },
   "devDependencies": {}
 }
