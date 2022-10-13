@@ -12,7 +12,7 @@
 
 #### 설계 , 개발 :  정유하&#x20;
 
-#### 스택 : **Spring boot , JPA , Rest api  , JUnit , Maria DB**&#x20;
+#### 스택 : Node.js **, Jest , Rest api**&#x20;
 
 #### 진행 History ( 3차 개발(2차 고도화) 완료 )
 
