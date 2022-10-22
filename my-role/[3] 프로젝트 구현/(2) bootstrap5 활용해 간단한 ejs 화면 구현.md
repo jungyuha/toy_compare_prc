@@ -118,7 +118,7 @@ app.use('/statics/images',express.static(path.join(__dirname, 'public/images')))
 
 ### (1) 메인 페이지 <a href="#1" id="1"></a>
 
-![](https://velog.velcdn.com/images/yooha9621/post/69fdc447-b5f5-426f-983b-c6002e89aecb/image.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### (2) 입력/수정 창 <a href="#2" id="2"></a>
 

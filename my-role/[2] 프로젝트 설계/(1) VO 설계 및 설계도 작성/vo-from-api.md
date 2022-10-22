@@ -5,7 +5,7 @@
 * **api 호출을 통해 구성된 상품 VO이다.**
 * **prodObj , prcInfo , apiResult 3가지 객체로 구성되어있다.**
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p> 상품 VO(from api) 구조</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p> 상품 VO(from api) 구조</p></figcaption></figure>
 
 ### 1) **prodObj**
 
