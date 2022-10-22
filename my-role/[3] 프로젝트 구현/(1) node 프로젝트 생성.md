@@ -5,20 +5,24 @@
 npm은 미리 설치가 되어있어 설명은 생략!\
 흠..그래도 기본 개념은 못참지
 
+## NPM이란? &#x20;
+
 > **✅ npm이란?**
 >
 > Node.js로 만들어진 모듈을 설치하고 관리해 주는 프로그램이다.
 
-## express-generator로 프로젝트 구조까지 자동 생성하기 <a href="#express-generator" id="express-generator"></a>
+## \[1] 프로젝트 뼈대 구축하기 <a href="#express-generator" id="express-generator"></a>
 
-*   나는 노드로 웹서버를 만들거라서 서버 구축에 필수인 express 모듈 설치겸 프로젝트 구조도 자동으로 잡고자 express-generator를 설치했다.
+### 부제 : express-generator로 프로젝트 구조 자동 생성하기 <a href="#express-generator" id="express-generator"></a>
 
-    > **✅ express 모듈은 무엇인가요?**
-    >
-    > * NodeJS를 사용하여 쉽게 서버를 구성할 수 있게 만든 클래스와 라이브러리의 집합체
-    > * HTTP 통신 요청(Request; GET, POST, DELETE 등)에 대한 핸들러를 만든다.
+* 나는 노드로 웹서버를 만들거라서 서버 구축에 필수인 express 모듈 설치겸 프로젝트 구조도 자동으로 잡고자 express-generator를 설치했다.
 
-### express-generator 설치 <a href="#express-generator" id="express-generator"></a>
+> **✅ express 모듈은 무엇인가요?**
+>
+> * NodeJS를 사용하여 쉽게 서버를 구성할 수 있게 만든 클래스와 라이브러리의 집합체
+> * HTTP 통신 요청(Request; GET, POST, DELETE 등)에 대한 핸들러를 만든다.
+
+### (1) express-generator 설치 <a href="#express-generator" id="express-generator"></a>
 
 프로젝트를 만들고자 하는 디렉토리에 들어가 다음 명령어를 실행한다.
 
@@ -32,6 +36,8 @@ express-generator를 설치한 뒤 다음 명령어로 잘 설치 되어있는�
 $ express -h
 ```
 
+### (2) express-generator로 프로젝트 생성하기 <a href="#express-generator" id="express-generator"></a>
+
 express-generator로 프로젝트를 만드는 명령어는 다음과 같다.
 
 ```
@@ -44,7 +50,7 @@ $ express <프로젝트명> --view=<템플릿 엔진명>
 $ express compare_prc --view=ejs
 ```
 
-### npm 패키지 생성 <a href="#npm" id="npm"></a>
+### (3) npm 패키지 생성 <a href="#npm" id="npm"></a>
 
 만들어진 compare\_prc 프로젝트 디렉토리로 들어가 npm install을 실행해 노드 패키지로 만들어준다.
 
@@ -52,9 +58,9 @@ $ express compare_prc --view=ejs
 $ npm install
 ```
 
-### 프로젝트 기초 구축 완성🤩 <a href="#undefined" id="undefined"></a>
+## \[2] 프로젝트 기초 구축 완성🤩 <a href="#undefined" id="undefined"></a>
 
-![](https://velog.velcdn.com/images/yooha9621/post/d14ef407-dede-4368-894c-321eb822a113/image.png)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### (+) 깃허브 연동 오류 <a href="#undefined" id="undefined"></a>
 
