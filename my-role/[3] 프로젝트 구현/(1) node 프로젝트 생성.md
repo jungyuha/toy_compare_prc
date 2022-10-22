@@ -11,7 +11,11 @@ npm은 미리 설치가 되어있어 설명은 생략!\
 >
 > Node.js로 만들어진 모듈을 설치하고 관리해 주는 프로그램이다.
 
-## \[1] 프로젝트 뼈대 구축하기 <a href="#express-generator" id="express-generator"></a>
+## \[1] 사용 스택 <a href="#express-generator" id="express-generator"></a>
+
+### 1) 프로젝트 생성 웹 프레임 워크 :  express-generator
+
+## \[2] 프로젝트 뼈대 구축하기 <a href="#express-generator" id="express-generator"></a>
 
 ### 부제 : express-generator로 프로젝트 구조 자동 생성하기 <a href="#express-generator" id="express-generator"></a>
 
@@ -58,7 +62,7 @@ $ express compare_prc --view=ejs
 $ npm install
 ```
 
-## \[2] 프로젝트 기초 구축 완성🤩 <a href="#undefined" id="undefined"></a>
+## \[3] 프로젝트 기초 구축 완성🤩 <a href="#undefined" id="undefined"></a>
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
