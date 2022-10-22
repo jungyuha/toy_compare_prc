@@ -1,17 +1,18 @@
-# (2) ejs를 bootstrap5로 구현하기
+# (2) 메인 페이지 만들기
 
-## 메인 페이지 구현하기 <a href="#undefined" id="undefined"></a>
+## \[1] 사용 스택 <a href="#undefined" id="undefined"></a>
 
-나는 뒷쪽 서비스 개발에 보다 더 집중하고 싶어 디자인은 상대적으로 빠르고 간단하게 구현하고 넘어가고자 했다.\
-우선 나에게 필요한 디자인 요소를 크게 정리해보았다.
+### **1) 템플릿 : ejs**
 
-## \[1] 개발에 필요한 주요 디자인 <a href="#1" id="1"></a>
+### **2)  CSS 프레임워크 : bootstrap5**
+
+## \[2] 주요 디자인 element  <a href="#1" id="1"></a>
 
 ### 1) 버튼 <a href="#1" id="1"></a>
 
 1. 배치(JOB) 등록/수정 버튼
-2. 등록 배치(JOB) 목록 새로고침 버튼
-3. 등록 배치(JOB) 목록 전체 일시 정지 버튼
+2. 배치(JOB) 목록 새로고침 버튼
+3. 배치(JOB) 목록 전체 일시 정지 버튼
 
 ### 2) 입력창 <a href="#2" id="2"></a>
 
@@ -19,9 +20,9 @@
 
 ### 2) 테이블 <a href="#2" id="2"></a>
 
-1. 등록 배치(JOB) 목록 테이블
+1. 배치(JOB) 목록 테이블
 
-## \[2] 찾았다!😊 구현하기 편한 무료 디자인! <a href="#2" id="2"></a>
+## \[3] bootstrap5 디자인 선정 <a href="#2" id="2"></a>
 
 열심히 무료 웹페이지 퍼블리싱을 서치하다가 찾았다.\
 한눈에 들어오는 큼지막한 버튼과 아래의 테이블 디자인이 간결하고 직관적이라 마음에 들었다.\
@@ -30,7 +31,7 @@
 
 <figure><img src="https://velog.velcdn.com/images/yooha9621/post/4c58f9e4-0268-4038-bd73-b54d33a41af3/image.png" alt=""><figcaption></figcaption></figure>
 
-## \[3] 프로젝트에 적용하기 <a href="#3" id="3"></a>
+## \[4] 메인 페이지 띄우기 <a href="#3" id="3"></a>
 
 ### (1) static 파일 경로 설정 <a href="#1-static" id="1-static"></a>
 
@@ -113,7 +114,7 @@ app.use('/statics/images',express.static(path.join(__dirname, 'public/images')))
 <img src="/discord/statics/images/spinner2.gif" width="100px">
 ```
 
-## \[4] 결과 <a href="#4" id="4"></a>
+## \[5] 결과 <a href="#4" id="4"></a>
 
 ### (1) 메인 페이지 <a href="#1" id="1"></a>
 
