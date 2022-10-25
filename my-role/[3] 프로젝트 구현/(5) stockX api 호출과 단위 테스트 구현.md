@@ -4,6 +4,8 @@
 
 ### **1)** stockX api 호출 **:** stockX api 라이브러리
 
+### 2) 상품 VO 설계 : 👉 [vo-from-api.md](<../\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/vo-from-api.md> "mention")
+
 ## stockX api 호출 <a href="#stockx-api" id="stockx-api"></a>
 
 * stockX 에서 현재 판매중인 특정 상품의 가격 정보와 판매 관련 정보가 필요하다.

@@ -1,15 +1,15 @@
 # (4) jest를 활용해 단위테스트 구현
 
-## \[1] 사용 스택 <a href="#undefined" id="undefined"></a>
+## \[0] 사용 스택 <a href="#undefined" id="undefined"></a>
 
 ### **1) 단위테스트 툴 : jest**
 
-## \[2] 단위 테스트란? (Unit Test) <a href="#unit-test" id="unit-test"></a>
+## 단위 테스트란? (Unit Test) <a href="#unit-test" id="unit-test"></a>
 
 * 개발한 코드를 원하는 범위의 기능 단위로 테스트하는 것이다.
 * 단위테스트는 개발 라이프 사이클의 초기 단계에서 잘못된 부분을 바로 잡아 해결할 수 있기 때문에 추후의 발생될 수 있는 수정비용을 미연에 잡아 줄여준다.
 
-## \[3] Jest 사용하기 <a href="#jest" id="jest"></a>
+## \[1] Jest 사용하기 <a href="#jest" id="jest"></a>
 
 * facebook에 의해 만들어진 테스팅 프레임워크이다.
 * test case를 코드 단위로 만들어서 어플리케이션이 잘 돌아가는지 테스트할 수 있다.

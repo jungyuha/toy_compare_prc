@@ -23,7 +23,7 @@
   * [(3) gulp를 통해 빌드 자동화하기](<my-role/\[3] 프로젝트 구현/(3) gulp를 활용해 프로젝트 띄우기.md>)
   * [(4) jest를 활용해 단위테스트 구현](<my-role/\[3] 프로젝트 구현/(4) jest를 활용해 단위테스트 구현.md>)
   * [(5) stockX api 호출하기](<my-role/\[3] 프로젝트 구현/(5) stockX api 호출과 단위 테스트 구현.md>)
-  * [(6) kream api 통신 단위 테스트 구현(got 라이브러리 사용법)](<my-role/\[3] 프로젝트 구현/(6) kream api 통신 단위 테스트 구현(got 라이브러리 사용법).md>)
+  * [(6) kream api 호출하기(got 라이브러리 사용법)](<my-role/\[3] 프로젝트 구현/(6) kream api 통신 단위 테스트 구현(got 라이브러리 사용법).md>)
   * [(7) discord 서버 webhook(웹훅) 생성](<my-role/\[3] 프로젝트 구현/(7) discord 서버 webhook(웹훅) 생성.md>)
   * [(8) 디스코드 webhook(웹훅) api 호출 및 단위 테스트 수행](<my-role/\[3] 프로젝트 구현/(8) 디스코드 webhook(웹훅) api 호출 및 단위 테스트 수행.md>)
   * [(9) webhook(웹훅) 배치 전송 스케쥴링 구현](<my-role/\[3] 프로젝트 구현/(9) webhook(웹훅) 배치 전송 스케쥴링 구현.md>)

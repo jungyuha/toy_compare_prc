@@ -1,6 +1,6 @@
 # (3) gulp를 통해 빌드 자동화하기
 
-## \[1] 사용 스택 <a href="#undefined" id="undefined"></a>
+## \[0] 사용 스택 <a href="#undefined" id="undefined"></a>
 
 ### **1) 자동화 빌드 툴 :** gulp
 
@@ -13,9 +13,9 @@
 > * gulp를 통해 프로젝트의 코드 변경 시 프로젝트를 자동으로 재시작하여 손쉽게 개발할 수 있다.
 >   * gulp의 watch함수 기능
 
-### \[1] gulp 적용하기 <a href="#1-gulp" id="1-gulp"></a>
+## \[1] gulp 적용하기 <a href="#1-gulp" id="1-gulp"></a>
 
-#### 1) gulp 설치하기 <a href="#1-gulp" id="1-gulp"></a>
+### 1) gulp 설치하기 <a href="#1-gulp" id="1-gulp"></a>
 
 기존에 쓰던 방식 그대로 다음과 같이 세 개의 gulp 패키지를 설치했다.
 
@@ -27,7 +27,7 @@
 $ npm install gulp gulp-nodemon gulp-load-plugins
 ```
 
-#### 2) package.json에 gulp 패키지 추가하기 <a href="#2-packagejson-gulp" id="2-packagejson-gulp"></a>
+### 2) package.json에 gulp 패키지 추가하기 <a href="#2-packagejson-gulp" id="2-packagejson-gulp"></a>
 
 **package.json**
 
@@ -44,7 +44,7 @@ $ npm install gulp gulp-nodemon gulp-load-plugins
 }
 ```
 
-#### 3) 빌드 실행 <a href="#3" id="3"></a>
+### 3) 빌드 실행 <a href="#3" id="3"></a>
 
 ```
 $ npm run dev
@@ -57,7 +57,7 @@ $ npm run dev
 **오류남ㅎㅋ**\
 **안녕히계세요. 이만 글 접습니다.**
 
-### \[2] gulpfile 생성하기 <a href="#2-gulpfile" id="2-gulpfile"></a>
+## \[2] gulpfile 생성하기 <a href="#2-gulpfile" id="2-gulpfile"></a>
 
 당연함 ㅋ 빌드 실행 설정 파일이 없으니 노드도 겁나 황당할것ㅎ\
 왜 안되는지 노트북부터 때릴 생각말고 노드 쪽 입장도 들어봐야함\
@@ -65,7 +65,7 @@ $ npm run dev
 
 <figure><img src="https://velog.velcdn.com/images/yooha9621/post/d1b1dd1b-79e0-43c3-9d3c-88ed21c0470c/image.png" alt=""><figcaption></figcaption></figure>
 
-#### 1) gulpfile.js 생성하기 <a href="#1-gulpfilejs" id="1-gulpfilejs"></a>
+### 1) gulpfile.js 생성하기 <a href="#1-gulpfilejs" id="1-gulpfilejs"></a>
 
 * gulpfile.js 파일을 루트 경로에 생성한다.
 *   변경된 파일들은 자동으로 재빌드 될 수 있도록 한 폴더에 묶어놓고 싶어 src 폴더를 만들어 디렉토리 구조를 조금 변경했다.\
@@ -73,7 +73,7 @@ $ npm run dev
 
     <figure><img src="https://velog.velcdn.com/images/yooha9621/post/2171040c-9323-4384-8186-57a9d5103e16/image.png" alt=""><figcaption></figcaption></figure>
 
-**gulpfile.js**
+#### **gulpfile.js**
 
 ```javascript
 'use strict';
@@ -91,9 +91,9 @@ gulp.task('server', function () {
 gulp.task('default', gulp.series('server'));
 ```
 
-### \[3] 빌드 실행 <a href="#3-1" id="3-1"></a>
+## \[3] 빌드 실행 <a href="#3-1" id="3-1"></a>
 
-**1) 빌드 실행하기**
+### **1) 빌드 실행하기**
 
 ```
 $ npm run dev
@@ -104,7 +104,7 @@ $ npm run dev
 
 <figure><img src="https://velog.velcdn.com/images/yooha9621/post/fd071eb6-6200-4a83-a771-e3ece16e9114/image.png" alt=""><figcaption></figcaption></figure>
 
-**2) src안에 있는 파일들을 변경해보기**
+### **2) src안에 있는 파일들을 변경해보기**
 
 **터미널에 다음과 같이 뜨면서 재시작된다.**\
 
