@@ -64,7 +64,7 @@ $ npm install
 
 ## \[3] 프로젝트 기초 구축 완성🤩 <a href="#undefined" id="undefined"></a>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### (+) 깃허브 연동 오류 <a href="#undefined" id="undefined"></a>
 

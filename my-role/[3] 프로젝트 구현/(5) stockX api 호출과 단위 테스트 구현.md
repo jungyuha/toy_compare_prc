@@ -4,7 +4,7 @@
 
 ### **1)** stockX api 호출 **:** stockX api 라이브러리
 
-### 2) 상품 VO 설계 : 👉 [vo-from-api.md](<../\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/vo-from-api.md> "mention")
+### 2) 상품 VO 설계 : 👉 [1.-vo.md](<../\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/1-vo/1.-vo.md> "mention")
 
 ## stockX api 호출 <a href="#stockx-api" id="stockx-api"></a>
 
