@@ -2,9 +2,7 @@
 
 ## \[1] 클래스 다이어그램
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## \[2] 구성
 

@@ -10,17 +10,21 @@
 
 #### 링크 이동 👉 [1.-vo.md](1.-vo.md "mention")
 
+* #### **stockX , kream api 호출을 통해 받아온 상품 정보를 맵핑한다.**
 * **prcInfo , apiRsult 객체를 참조한다.**
 
 ### (2) prcInfo
 
 #### 링크 이동 👉 [2.-vo.md](2.-vo.md "mention") (사이즈별)
 
+* #### **stockX , kream api 호출을 통해 받아온 사이즈별** 상품 상세 정보**를 맵핑한다.**
 * **prodObj 객체에 의존적이다.(= prodObj 자신의 부모 역할이기 때문에 prodObj가 반드시 존재한다.)**
 
 ### (3) apiResult
 
 링크 이동 👉 [3.-api-vo.md](3.-api-vo.md "mention")
+
+* #### **stockX , kream api 호출의 결과/상태값을 보여준다.**
 
 ### (4) sizeMap
 
