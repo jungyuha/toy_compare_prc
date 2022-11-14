@@ -1,0 +1,38 @@
+# (1) 상품 관련 VO 모음
+
+## \[1] 클래스 다이어그램&#x20;
+
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+## \[2] 구성
+
+### (1) prodObj
+
+#### 링크 이동 👉 [1.-vo.md](1.-vo.md "mention")
+
+* #### **stockX , kream api 호출을 통해 받아온 상품 정보를 맵핑한다.**
+* **prcInfo , apiResult 객체를 참조한다.**
+
+### (2) prcInfo
+
+#### 링크 이동 👉 [2.-vo.md](2.-vo.md "mention") (사이즈별)
+
+* #### **stockX , kream api 호출을 통해 받아온 사이즈별** 상품 상세 정보**를 맵핑한다.**
+* **prodObj 객체에 의존적이다.**\
+  **(= prodObj의 자식 역할이기 때문에 prodObj가 존재해야 prcInfo가 존재할 수 있다.)**
+
+### (3) apiResult
+
+링크 이동 👉 [3.-api-vo.md](3.-api-vo.md "mention")
+
+* #### **stockX , kream api 호출의 결과/상태값을 보여준다.**
+
+### (4) sizeMap
+
+* **한국-미국 사이즈 맵핑 VO**
+* **ENUM의 성격을 가진다.**
+
+### (5) templateInfo
+
+* **한국-미국 가격 현지화에 필요한 VO**
+
