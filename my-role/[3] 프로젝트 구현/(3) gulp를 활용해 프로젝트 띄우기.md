@@ -73,7 +73,7 @@ $ npm run dev
 
     <figure><img src="https://velog.velcdn.com/images/yooha9621/post/2171040c-9323-4384-8186-57a9d5103e16/image.png" alt=""><figcaption></figcaption></figure>
 
-#### **gulpfile.js**
+**gulpfile.js**
 
 ```javascript
 'use strict';
@@ -89,6 +89,15 @@ gulp.task('server', function () {
 });
 
 gulp.task('default', gulp.series('server'));
+```
+
+**package.json**
+
+```json
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "gulp"
+  }
 ```
 
 ## \[3] 빌드 실행 <a href="#3-1" id="3-1"></a>
