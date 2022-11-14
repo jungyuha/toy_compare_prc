@@ -4,7 +4,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-## \[2] 각 VO 설계 링크
+## \[2] VO 상세
 
 {% content-ref url="1-vo/" %}
 [1-vo](1-vo/)
