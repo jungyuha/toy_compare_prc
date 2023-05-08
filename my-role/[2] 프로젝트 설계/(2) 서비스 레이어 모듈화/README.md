@@ -2,7 +2,7 @@
 
 ## \[1] 전체 서비스 다이어그램(클래스)
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ## \[2] 서비스 상세
 
