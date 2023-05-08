@@ -1,7 +1,8 @@
 # Table of contents
 
-* [👟 Kream <-> StockX 실시간 이율 자동 알림 웹서비스](README.md)
-  * [프로젝트 소개](readme/undefined.md)
+* [👟 실시간 이율 알림 웹서비스](README.md)
+  * [Introduce](readme/introduce.md)
+  * [주요 기능](readme/undefined.md)
 
 ## DEVELOP INFO
 

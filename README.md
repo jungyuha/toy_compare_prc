@@ -1,8 +1,8 @@
 ---
-description: '[node.js] Kream <-> StockX 실시간 이율 자동 알림 웹서비스'
+description: '[node.js] Kream <-> StockX 실시간 이율 배치 알림 웹서비스'
 ---
 
-# 👟 Kream <-> StockX 실시간 이율 자동 알림 웹서비스
+# 👟 실시간 이율 알림 웹서비스
 
 ## \[1] 프로젝트 명
 
@@ -52,7 +52,7 @@ description: '[node.js] Kream <-> StockX 실시간 이율 자동 알림 웹서�
 
 ## \[4] 프로젝트 소개 링크
 
-{% content-ref url="readme/undefined.md" %}
-[undefined.md](readme/undefined.md)
+{% content-ref url="readme/introduce.md" %}
+[introduce.md](readme/introduce.md)
 {% endcontent-ref %}
 
