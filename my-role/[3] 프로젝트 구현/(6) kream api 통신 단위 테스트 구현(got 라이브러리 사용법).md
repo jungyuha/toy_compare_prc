@@ -4,7 +4,7 @@
 
 ### **1)** kream api 호출 **:** got 라이브러리
 
-### 2) 상품 VO 설계 : 👉 [1.-vo.md](<../\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/1-vo/1.-vo.md> "mention")
+### 2) 상품 VO 설계 : 👉 [Broken link](broken-reference "mention")
 
 ## got 라이브러리 <a href="#got" id="got"></a>
 
