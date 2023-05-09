@@ -13,6 +13,7 @@
 
 * [\[1\] 자바스크립트 이론 학습](<my-role/\[1] 자바스크립트 이론 학습.md>)
 * [\[2\] 프로젝트 설계](<my-role/\[2] 프로젝트 설계/README.md>)
+  * [(0) 클래스 다이어그램 기호](<my-role/\[2] 프로젝트 설계/0.md>)
   * [(1) VO 설계](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/README.md>)
     * [(1) 상품 관련 VO 모음](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/1-vo/README.md>)
       * [1. 상품정보 VO](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/1-vo/1.-vo.md>)
@@ -23,7 +24,9 @@
       * [1.  webhook 전송 VO](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/3-webhook-vo/1.-webhook-vo.md>)
       * [2. webhook 리소스 VO](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/3-webhook-vo/2.-webhook-vo.md>)
   * [(2) 서비스 모듈화](<my-role/\[2] 프로젝트 설계/(2) 서비스 레이어 모듈화/README.md>)
-    * [1. createTemplate 서비스](<my-role/\[2] 프로젝트 설계/(2) 서비스 레이어 모듈화/1.-createtemplate.md>)
+    * [1. 서비스 구조](<my-role/\[2] 프로젝트 설계/(2) 서비스 레이어 모듈화/1..md>)
+    * [2. createTemplateService](<my-role/\[2] 프로젝트 설계/(2) 서비스 레이어 모듈화/2.-createtemplateservice.md>)
+    * [3. gettingInfoService](<my-role/\[2] 프로젝트 설계/(2) 서비스 레이어 모듈화/3.-gettinginfoservice.md>)
   * [(3) 기능별 시퀀스 다이어그램 작성](<my-role/\[2] 프로젝트 설계/(3) 기능별 시퀀스 다이어그램 작성.md>)
   * [(4) 모듈별 플로우 차트 설계](<my-role/\[2] 프로젝트 설계/(4) 모듈별 플로우 차트 설계.md>)
 * [\[3\] 프로젝트 구현](<my-role/\[3] 프로젝트 구현/README.md>)
