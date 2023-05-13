@@ -21,7 +21,7 @@
       * [2. prodObj (상품 기본)](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/2./2.-prodobj.md>)
       * [3. prcInfo (상품 상세)](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/2./3.-prcinfo.md>)
       * [4. apiResult (api 상태)](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/2./4.-apiresult-api.md>)
-      * [5. sizeMap](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/2./5.-sizemap.md>)
+      * [5. sizeMap(사이즈 맵핑)](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/2./5.-sizemap.md>)
       * [6. templateInfo](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/2./6.-templateinfo.md>)
     * [3. 작업](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/3./README.md>)
       * [1. processInfo](<my-role/\[2] 프로젝트 설계/(1) VO 설계 및 설계도 작성/3./1.-processinfo.md>)
