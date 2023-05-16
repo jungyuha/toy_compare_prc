@@ -59,7 +59,19 @@ $ npm install jest
 
 **jest에서 테스트할 파일은 다음과 같이 명명한다.(Test 라고 하면 오류난다 test라고 해야한다.)**
 
-* **{filename}.test.js**
+#### **4..eslintrc.js 파일 수정**
+
+다음과 같이 **"jest": true** 를 추가해준다.
+
+```javascript
+"env": {
+        "es6": true,
+        "node": true,
+        "jest": true 
+    }
+```
+
+#### 4. 테스트 디렉토리 구조 설정하기 <a href="#2" id="2"></a>
 
 ### 3) jest 사용법 <a href="#3-jest" id="3-jest"></a>
 
