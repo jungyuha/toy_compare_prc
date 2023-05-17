@@ -44,6 +44,9 @@ const stockX = new StockXAPI({currency: 'KRW'});
 
 ### 2) stockX api 호출 코드 작성 <a href="#2-stockx-api" id="2-stockx-api"></a>
 
+* 호출시 cookie값의 \_\_pxvid값을 넣어줘야 403에러가 뜨지 않는다.
+  * \_\_pxvid=7e323b3c-f39b-11ed-a01c-0242ac120004;
+
 ```javascript
 	stockXApi: async(param) => {
       // 1 . 호출 URL 설정
