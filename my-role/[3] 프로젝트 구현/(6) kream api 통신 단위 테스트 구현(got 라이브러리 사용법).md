@@ -89,6 +89,8 @@ const kreamApi = require('../../lib/kream');
 ### 2) kream Api 호출하기 <a href="#2-kream-api" id="2-kream-api"></a>
 
 * api 호출을 동기 처리하기위해 **async/await 구문을 활용**했다.
+* 호출시 헤더에 x-kream-client-datetime값을 넣어줘야 403에러가 뜨지 않는다.
+  * "x-kream-client-datetime": "20230521150611+0900"
 
 ```javascript
 kreamApi: async(param) => {
@@ -102,8 +104,9 @@ kreamApi: async(param) => {
         path : path,
         scheme : 'https',
         headers: {
-            "x-kream-api-version": "6",
-            "x-kream-device-id": "web;49c40756-3bab-4ad2-8b69-130cac43456a",
+            "x-kream-api-version": "18",
+            "x-kream-device-id": "web;f3aba727-d1de-4a98-b520-758069ef98b1",
+            "x-kream-client-datetime": "20230521150611+0900",
             "authority" :"kream.authority",
             "scheme" : "https",
             "path" : "kream.path",

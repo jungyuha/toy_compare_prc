@@ -45,6 +45,30 @@ const stockX = new StockXAPI({currency: 'KRW'});
 ### 2) stockX api 호출 코드 작성 <a href="#2-stockx-api" id="2-stockx-api"></a>
 
 * 호출시 cookie값의 \_\_pxvid값을 넣어줘야 403에러가 뜨지 않는다.
+  * stockX 라이브러리 내의 코드를 다음과 같이 임의로 변경하였다.
+  * 경로 : node\_modules/stockx-api/src/api/scrapers/fetchproductdetails.js
+  * ```javascript
+        const reqOptions = {
+            url: `https://stockx.com/api/products/${webURL}?includes=market&currency=${currency}&country=US`,
+            headers: {
+                'user-agent': userAgent,
+                'authority': "stockx.com",
+                "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "accept-language": "en-US,en;q=0.9",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-fetch-dest": "document",
+                "sec-fetch-mode": "navigate",
+                "sec-fetch-site": "none",
+                "sec-fetch-user": "?1",
+                "upgrade-insecure-requests": "1",
+                "cookie":"_pxvid=508a8a65-f590-11ed-8726-766f73585977; __pxvid=50a82217-f590-11ed-980d-0242ac120004; " // 변경부분 !! 
+            },
+            followAllRedirects: true,
+            followRedirect: true,
+            proxy
+        };
+    ```
   * \_\_pxvid=7e323b3c-f39b-11ed-a01c-0242ac120004;
 
 ```javascript
