@@ -2,7 +2,7 @@
 
 ## 클래스 간 관계
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>클래스 간 관계</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>클래스 간 관계</p></figcaption></figure>
 
 출처 : [https://www.nextree.co.kr/p6753/](https://www.nextree.co.kr/p6753/\))
 
@@ -20,7 +20,7 @@
 
 ## 2. 집합 관계
 
-<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption><p>집합 관계</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (1) (1).png" alt=""><figcaption><p>집합 관계</p></figcaption></figure>
 
 * 부모 클래스는 자식 클래스의 공통 속성이나 연산을 제공하는 틀&#x20;
 
