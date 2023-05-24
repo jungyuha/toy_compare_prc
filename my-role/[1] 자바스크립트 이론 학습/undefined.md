@@ -42,7 +42,7 @@
 
 ## 3. 의존 관계
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 일반적으로 한 클래스가 다른 클래스를 사용하는 경우
 * 클래스의 속성(“멤버 변수”)에서 참조할 때

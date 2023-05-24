@@ -120,7 +120,7 @@ app.use('/statics/images',express.static(path.join(__dirname, 'public/images')))
 
 ### (1) 메인 페이지 <a href="#1" id="1"></a>
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### (2) 입력/수정 창 <a href="#2" id="2"></a>
 
