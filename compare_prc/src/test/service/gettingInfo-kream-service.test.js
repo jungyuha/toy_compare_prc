@@ -7,14 +7,17 @@ async function kreamApiTest(kreamProdId) {
     console.log("1");
     var kreamData = new prodObj(); 
     var apiResult = new apiResult_();   
-    let path = 'api/p/products/'+kreamProdId;          
+    //  /api/app/pages/0401_notice.html   "path" : "/api/p/products/"+kreamProdId,     "path" : "/api/app/pages/0401_notice",
+    let path = 'api/p/products/'+kreamProdId;  
+    //let path = 'api/app/pages/0401_notice ';
     let options = {
         method: 'GET',
         path : path,
         scheme : 'https',
         headers: {
-            "x-kream-api-version": "6",
-            "x-kream-device-id": "web;49c40756-3bab-4ad2-8b69-130cac43456a",
+            "x-kream-api-version": "18",
+            "x-kream-device-id": "web;f3aba727-d1de-4a98-b520-758069ef98b1",
+            "x-kream-client-datetime": "20230521150611+0900",
             "authority" :"kream.co.kr",
             "scheme" : "https",
             "path" : "/api/p/products/"+kreamProdId,
@@ -33,7 +36,9 @@ async function kreamApiTest(kreamProdId) {
     };
     return kreamApi(path, options)
     .then(async result => {
+        
         var product = JSON.parse(result.body);
+        console.log("12222222222"+product);
         apiResult._res = true;
         kreamData.apiResult = apiResult;
         kreamData.url = "https://kream.co.kr/products/"+kreamProdId;
@@ -72,8 +77,9 @@ async function kreamLastSaleApi (input_prod_id,size) {
         path : '/api/p/products/'+input_prod_id+'/'+size,
         scheme : 'https',
         headers: {
-            "x-kream-api-version": "6",
-            "x-kream-device-id": "web;49c40756-3bab-4ad2-8b69-130cac43456a",
+            "x-kream-api-version": "18",
+            "x-kream-device-id": "web;f3aba727-d1de-4a98-b520-758069ef98b1",
+            "x-kream-client-datetime": "20230521150611+0900",
             "authority" :"kream.co.kr",
             "scheme" : "https",
             "path" : "/api/p/products/"+input_prod_id,
@@ -97,7 +103,7 @@ async function kreamLastSaleApi (input_prod_id,size) {
             return latestPrc;
         })
         .catch(e => {
-            logger.info("kreamLastPrcApi Error =>"+e);
+            console.log("kreamLastPrcApi Error =>"+e);
             return null;
         });
 }
@@ -107,15 +113,16 @@ describe("kreamApiTest",  () => {
       try {
         await kreamApiTest ('21933')
         .then(result => {
-            var res = JSON.parse(result);
+            //var res = JSON.parse(result);
+            var res="";
             console.log(result);
             return res;
         })
         .catch(e => {
-            console.log(" kreamApiTest Error =>"+toString(e));
+            console.log(" kreamApiTest Error =>"+e.toString());
         });
     } catch (err) {
-        console.log(" kreamApiTest Error =>"+toString(err));
+        console.log(" kreamApiTest Error =>"+err.toString());
     }
       });
   });
