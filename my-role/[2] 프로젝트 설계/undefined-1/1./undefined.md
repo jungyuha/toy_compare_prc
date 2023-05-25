@@ -2,20 +2,22 @@
 
 **웹훅을 발송하는 프로세스를 추가한다.**
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt="" width="370"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt="" width="370"><figcaption><p><strong>웹훅을 발송하는 프로세스를 추가한다.</strong></p></figcaption></figure>
 
 &#x20;
 
 ## \[1] 프로세스(process)
 
-<figure><img src="../../../../.gitbook/assets/image (15).png" alt="" width="334"><figcaption><p>프로세스</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt="" width="334"><figcaption><p>주기 발송 프로세스</p></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (17).png" alt="" width="284"><figcaption><p>1회 발송 프로세스</p></figcaption></figure>
 
 * 웹훅을 실질적으로 발송하는 **작업(Job) 객체를** 가짐
 * 클래스 자료형은 [1.-processinfo.md](<../../undefined/(1) VO 설계 및 설계도 작성/3./1.-processinfo.md> "mention") VO이다.&#x20;
 
 ## \[2] 작업(Job)
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="347"><figcaption><p>작업</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (2).png" alt="" width="347"><figcaption><p>작업</p></figcaption></figure>
 
 * 웹훅을 주기적으로 발송하는 데에 필요한 정보를 담은 객체이다.
 * **웹훅을 발송하는 실질 구현체**를 Task로 가진다.

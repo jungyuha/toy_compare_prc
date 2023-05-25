@@ -43,7 +43,7 @@
       * [기능 소개](<my-role/\[2] 프로젝트 설계/undefined-1/1./undefined.md>)
       * [시퀀스 다이어그램](<my-role/\[2] 프로젝트 설계/undefined-1/1./undefined-1.md>)
     * [2. 스케쥴러(Job) 수정](<my-role/\[2] 프로젝트 설계/undefined-1/2.-job/README.md>)
-      * [기능 플로우차트](<my-role/\[2] 프로젝트 설계/undefined-1/2.-job/undefined.md>)
+      * [기능 소개](<my-role/\[2] 프로젝트 설계/undefined-1/2.-job/undefined.md>)
       * [시퀀스 다이어그램](<my-role/\[2] 프로젝트 설계/undefined-1/2.-job/undefined-1.md>)
     * [3. 상품 가격 정보 조회](<my-role/\[2] 프로젝트 설계/undefined-1/3..md>)
     * [4. 실시간 이율 계산](<my-role/\[2] 프로젝트 설계/undefined-1/4..md>)
