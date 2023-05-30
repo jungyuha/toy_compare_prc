@@ -2,7 +2,7 @@
 
 **웹훅을 발송하는 프로세스를 수정한다.**
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt="" width="326"><figcaption><p>프로세스 삭제</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt="" width="326"><figcaption><p>프로세스 삭제</p></figcaption></figure>
 
 &#x20;
 

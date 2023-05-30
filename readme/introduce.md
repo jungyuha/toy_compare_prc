@@ -1,8 +1,10 @@
 # Introduce
 
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>가격비교 알리미</p></figcaption></figure>
+
 ### Who ?
 
-**미국에서 한국으로 리셀링하는 리셀러를 위한**
+**미국과 한국 사이에서 리셀링하는 리셀러를 위한**
 
 ### What?
 

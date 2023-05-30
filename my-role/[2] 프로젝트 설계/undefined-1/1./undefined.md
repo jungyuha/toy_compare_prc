@@ -26,7 +26,7 @@
 
 ## \[3] 스케쥴러(scheduler)
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>스케줄러</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>스케줄러</p></figcaption></figure>
 
 * Job 객체에 정의된 **주기**에 맞춰 Job 객체에 설정된 **Task**를 주기적으로 실행
 * **toad-scheduler** 라이브러리의 **ToadScheduler** 객체를 사용한다.
