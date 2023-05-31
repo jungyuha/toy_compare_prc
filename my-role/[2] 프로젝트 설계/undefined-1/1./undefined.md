@@ -2,7 +2,7 @@
 
 **웹훅을 발송하는 프로세스를 추가한다.**
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt="" width="370"><figcaption><p><strong>웹훅을 발송하는 프로세스를 추가한다.</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (2).png" alt="" width="370"><figcaption><p><strong>웹훅을 발송하는 프로세스를 추가한다.</strong></p></figcaption></figure>
 
 &#x20;
 
