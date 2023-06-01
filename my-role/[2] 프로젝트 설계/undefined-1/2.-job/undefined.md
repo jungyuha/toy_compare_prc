@@ -6,6 +6,6 @@
 
 &#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>발송 상태 정지/시작</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>발송 상태 정지/시작</p></figcaption></figure>
 
 ## \[1] 프로세스(process)

@@ -2,9 +2,8 @@
 
 * [👟 실시간 이율 알림 웹서비스](README.md)
   * [Introduce](readme/introduce.md)
-  * [프로젝트 개요](readme/undefined.md)
-  * [기능](readme/undefined-1.md)
-  * [활용기술](readme/skill.md)
+  * [Main](readme/main.md)
+  * [Stack](readme/skill.md)
 
 ## Detail
 
