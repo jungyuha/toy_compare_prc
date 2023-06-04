@@ -9,6 +9,7 @@
 
 * [\[1\] 이론 학습](<my-role/\[1] 자바스크립트 이론 학습/README.md>)
   * [클래스 다이어그램 작성법](<my-role/\[1] 자바스크립트 이론 학습/undefined.md>)
+  * [\[javascript\] enum 사용하기](<detail/\[1] 자바스크립트 이론 학습/javascript-enum.md>)
 * [\[2\] 프로젝트 설계](<my-role/\[2] 프로젝트 설계/README.md>)
   * [클래스(객체)](<my-role/\[2] 프로젝트 설계/undefined/README.md>)
     * [(1) VO](<my-role/\[2] 프로젝트 설계/undefined/(1) VO 설계 및 설계도 작성/README.md>)
@@ -56,3 +57,4 @@
   * [(7) discord 서버 webhook(웹훅) 생성](<my-role/\[3] 프로젝트 구현/(7) discord 서버 webhook(웹훅) 생성.md>)
   * [(8) 디스코드 webhook(웹훅) api 호출 및 단위 테스트 수행](<my-role/\[3] 프로젝트 구현/(8) 디스코드 webhook(웹훅) api 호출 및 단위 테스트 수행.md>)
   * [(9) webhook(웹훅) 배치 전송 스케쥴링 구현](<my-role/\[3] 프로젝트 구현/(9) webhook(웹훅) 배치 전송 스케쥴링 구현.md>)
+* [Page 1](detail/page-1.md)
