@@ -10,6 +10,7 @@
 * [\[1\] 이론 학습](<my-role/\[1] 자바스크립트 이론 학습/README.md>)
   * [클래스 다이어그램 작성법](<my-role/\[1] 자바스크립트 이론 학습/undefined.md>)
   * [\[javascript\] enum 사용하기](<detail/\[1] 자바스크립트 이론 학습/javascript-enum.md>)
+  * [\[javascript\]class 생성 , getter setter 적용하기](<detail/\[1] 자바스크립트 이론 학습/javascript-class-getter-setter.md>)
 * [\[2\] 프로젝트 설계](<my-role/\[2] 프로젝트 설계/README.md>)
   * [클래스(객체)](<my-role/\[2] 프로젝트 설계/undefined/README.md>)
     * [(1) VO](<my-role/\[2] 프로젝트 설계/undefined/(1) VO 설계 및 설계도 작성/README.md>)
