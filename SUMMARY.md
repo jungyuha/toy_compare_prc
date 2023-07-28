@@ -1,9 +1,8 @@
 # Table of contents
 
-* [👟 실시간 이율 알림 웹서비스](README.md)
-  * [Introduce](readme/introduce.md)
-  * [Main](readme/main.md)
-  * [Stack](readme/skill.md)
+* [👟 상품 리셀 이율 자동 알림 시스템](README.md)
+  * [시스템 소개](readme/undefined.md)
+  * [기능 소개](readme/undefined-1.md)
 
 ## Detail
 
@@ -58,4 +57,3 @@
   * [(7) discord 서버 webhook(웹훅) 생성](<my-role/\[3] 프로젝트 구현/(7) discord 서버 webhook(웹훅) 생성.md>)
   * [(8) 디스코드 webhook(웹훅) api 호출 및 단위 테스트 수행](<my-role/\[3] 프로젝트 구현/(8) 디스코드 webhook(웹훅) api 호출 및 단위 테스트 수행.md>)
   * [(9) webhook(웹훅) 배치 전송 스케쥴링 구현](<my-role/\[3] 프로젝트 구현/(9) webhook(웹훅) 배치 전송 스케쥴링 구현.md>)
-* [Page 1](detail/page-1.md)

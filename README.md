@@ -2,11 +2,11 @@
 description: '[node.js] Kream <-> StockX 실시간 이율 배치 알림 웹서비스'
 ---
 
-# 👟 실시간 이율 알림 웹서비스
+# 👟 상품 리셀 이율 자동 알림 시스템
 
 ## \[1] 프로젝트 명
 
-#### \[node.js] Kream <-> StockX 실시간 이율 자동 알림 웹서비스
+**디스코드 웹훅을 활용한 상품 리셀 이율 자동 알림 시스템**
 
 ## \[2] 프로젝트 진행 정보
 
@@ -18,7 +18,13 @@ description: '[node.js] Kream <-> StockX 실시간 이율 배치 알림 웹서�
 
 #### 설계 , 개발 :  정유하&#x20;
 
-#### 스택 : Node.js **, Jest , Rest api**&#x20;
+#### 스택&#x20;
+
+(1) 프론트 : HTML,JS,Jquery&#x20;
+
+(2) 백엔드 : Node.js
+
+(3) 단위테스트 : jest
 
 ## \[3] 진행 History
 
@@ -41,8 +47,8 @@ description: '[node.js] Kream <-> StockX 실시간 이율 배치 알림 웹서�
 
 1. **기간 : 2022년 8월 \~ 2022년 10월**
 2. **진행 상세**
-   1. Api 호출을 기반한 가격 비교 **서비스 모듈화**
-   2. 각 모듈화된 서비스를 **배치 실행**하도록 기능 추가 개발
+   1. 각 서비스의 기능을 정의하여 **모듈화**
+   2. 각 모듈화된 서비스를 주기적으로 실행하는 **자동화** 기능 개발
    3. 프로젝트 내부 구조 체계화
       * 크게 **VO , View , Controller , Service** 레이어로 분류
       * 프로세스별 **설계도** 작성
@@ -52,7 +58,7 @@ description: '[node.js] Kream <-> StockX 실시간 이율 배치 알림 웹서�
 
 ## \[4] 프로젝트 소개 링크
 
-{% content-ref url="readme/introduce.md" %}
-[introduce.md](readme/introduce.md)
+{% content-ref url="readme/undefined.md" %}
+[undefined.md](readme/undefined.md)
 {% endcontent-ref %}
 
